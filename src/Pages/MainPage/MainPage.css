@@ -1,0 +1,46 @@
+.row {
+
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row>span {
+    color: black;
+}
+
+
+.row>span:nth-child(3) {
+    justify-self: flex-end;
+}
+
+
+.row.operations {
+    border-bottom: none;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+a:nth-of-type(even)>.row {
+    background-color: #ededed;
+}
+
+a:nth-of-type(even)>.row {
+    background-color: #ededed;
+}
+
+.row:hover,
+a:nth-of-type(even)>.row:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.row.operations:hover {
+    cursor: default;
+    background-color: inherit;
+}
