@@ -11,7 +11,7 @@ Some notes:
 - Not a talented designer, though I've put in a bit of work towards the CSS to showcase ability.
 - Since the provided API was quite slow and the returned queries are imprecise, I did not bind API calls to the search box. 
 - Instead, I bound API calls to the type filter and the Parts page.
-- Though I've not had much experience with React unit testing, I've built a rudimentary unit test for everything using the React testing library
+- Though I've not had much experience with React unit testing, I've built a rudimentary unit test for everything using the React Testing library
 - One thing I couldn't wire was a mock API with Axios. I'm sure I could do it eventually, though after a day of fruitless search, it's clear I have to move on. If you have suggestions on that point, I'd be more than happy to hear them.
 
 ## APP Documentation
