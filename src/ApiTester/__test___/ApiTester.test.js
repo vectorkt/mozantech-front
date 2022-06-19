@@ -28,6 +28,8 @@ jest.mock("axios",()=>({
 test(
     'basic api',
     async () => {
+
+        /*  
         render(
             <ApiTester />
         )

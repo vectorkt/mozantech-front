@@ -23,6 +23,12 @@ npm install
 npm run start
 ```
 
-It should automatically open the default 3000 port. 
+It should automatically open the default 3000 port.
+
+The test command is:
+
+```
+npm run test
+```
 
 If there are any issues, let me know, I'll deploy it somewhere.
